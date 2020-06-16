@@ -1,0 +1,63 @@
+.roman-title {
+    font-size: 3em;
+}
+
+.roman-row{
+    display: flex;
+    padding: 0px 5vw;
+    align-items: center;
+    margin-top: 3em;
+    font-weight: bold;
+    width: 80%;
+}
+
+.input-roman {
+    font-weight: bold;
+}
+
+.roman-footer {
+    margin-top: 36vh;
+}
+
+// ====== @media screen ======
+
+@media screen and (min-width: 386px) {
+
+    .roman-row {
+        width: 100%;
+    }
+
+    .roman-footer {
+        margin-top: 48vh;
+    }
+}
+
+@media screen and (min-width: 601px) {
+
+    .roman-title {
+        font-size: 3.7em;
+    }
+
+    .roman-row, .input-roman {
+        font-size: 1.3em;
+    }
+
+    .roman-footer {
+        margin-top: 54.3vh;
+    }
+
+}
+
+@media screen and (min-width: 1000px) {
+    .roman-title {
+        font-size: 4.1em;
+    }
+
+    .roman-row, .input-roman {
+        font-size: 2em;
+    }
+
+    .roman-footer {
+        margin-top: 51vh;
+    }
+}

@@ -1,0 +1,118 @@
+// ====== Variables ======
+
+$light: #80cbc4;
+$medium: #009688;
+$dark: #004d40;
+
+// ====== Global styles ======
+
+html,
+body {
+    height: 100vh;
+    background: rgb(38, 50, 56);
+    background: linear-gradient(180deg, $dark 0%, $medium 30%, $light 100%);
+    overflow: hidden;
+}
+
+.row {
+    margin-bottom: 0px !important;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10px;
+    height: 15vh;
+    margin-top: 0px !important;
+}
+
+.title {
+    font-size: 4em;
+    font-weight: bold;
+    text-align: center;
+    margin-top: .5em;
+    margin-bottom: .3em;
+}
+
+.component {
+    height: 85vh;
+    text-align: center;
+}
+
+footer {
+    margin-top: 24vh;
+}
+
+// ====== Animations ======
+
+@keyframes exit {
+
+    0% {
+        transform: scale(1);
+
+    }
+
+    100% {
+        transform: scale(0);
+    }
+}
+
+.exit {
+
+    animation: exit .5s ease 0s 1;
+}
+
+@keyframes entrance {
+
+    0% {
+        transform: scale(0);
+
+    }
+
+    100% {
+        transform:  scale(1);
+    }
+}
+
+.entrance {
+
+    animation: entrance .5s ease 0s 1;
+}
+
+// ====== @media screens ======
+
+@media screen and (min-width: 601px) {
+
+    html,
+    body {
+        background: rgb(38, 50, 56);
+        background: linear-gradient(90deg, $dark 0%, $medium 30%, $light 100%);
+    }
+
+    .nav {
+        flex-direction: column;
+        height: 100vh;
+        margin-top: 0px;
+    }
+
+    .title {
+        margin-top: .7em;
+        margin-bottom: .3em;
+    }
+
+    .component {
+        height: 100vh;
+    }
+
+
+}
+
+// ====== Imports ======
+
+@import 'calculator.scss';
+@import 'piano.scss';
+@import 'pomodoro-clock.scss';
+@import 'random-quote.scss';
+@import 'roman-translator.scss';

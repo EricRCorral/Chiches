@@ -1,0 +1,67 @@
+.clock-title {
+    font-size: 2.2em;
+}
+
+.clock-text {
+    font-size: 1.8em;
+    font-weight: bold;
+}
+
+.clock-row {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 2vh;
+}
+
+.clock-footer {
+    margin-top: 9vh;
+}
+
+// ====== @media screen ======
+
+@media screen and (min-width: 385px) {
+
+    .clock-title {
+        margin-bottom: 7vh;
+    }
+
+    .clock-row {
+        margin-bottom: 4.4vh;
+    }
+}
+
+@media screen and (min-width: 601px) {
+
+    .clock-title {
+        font-size: 2.7em;
+    }
+
+    .clock-row {
+        justify-content: center;
+    }
+
+    .clock-text {
+        font-size: 2.2em;
+        margin: 0px 1em;
+    }
+
+    .clock-play {
+        margin-right: 4em;
+    }
+
+    .clock-footer {
+        margin-top: 16vh;
+    }
+}
+
+@media screen and (min-width: 1100px) {
+
+    .clock-title {
+        font-size: 3.5em;
+    }
+
+    .clock-text {
+        font-size: 2.6em;
+    }
+}
