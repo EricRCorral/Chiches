@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/Chiches/static/css/main.205f021d.chunk.css",
+    "main.js": "/Chiches/static/js/main.a762f313.chunk.js",
+    "main.js.map": "/Chiches/static/js/main.a762f313.chunk.js.map",
+    "runtime-main.js": "/Chiches/static/js/runtime-main.cb2dbf0d.js",
+    "runtime-main.js.map": "/Chiches/static/js/runtime-main.cb2dbf0d.js.map",
+    "static/js/2.1f06f050.chunk.js": "/Chiches/static/js/2.1f06f050.chunk.js",
+    "static/js/2.1f06f050.chunk.js.map": "/Chiches/static/js/2.1f06f050.chunk.js.map",
+    "index.html": "/Chiches/index.html",
+    "precache-manifest.537796d61ec7b20b69800aa5cb7b3fe9.js": "/Chiches/precache-manifest.537796d61ec7b20b69800aa5cb7b3fe9.js",
+    "service-worker.js": "/Chiches/service-worker.js",
+    "static/css/main.205f021d.chunk.css.map": "/Chiches/static/css/main.205f021d.chunk.css.map",
+    "static/js/2.1f06f050.chunk.js.LICENSE.txt": "/Chiches/static/js/2.1f06f050.chunk.js.LICENSE.txt",
+    "static/media/c3-1.wav": "/Chiches/static/media/c3-1.86ee3877.wav",
+    "static/media/c3-2.wav": "/Chiches/static/media/c3-2.b9ec5afa.wav",
+    "static/media/c3-3.wav": "/Chiches/static/media/c3-3.c096460e.wav",
+    "static/media/c3-4.wav": "/Chiches/static/media/c3-4.9631cd0e.wav",
+    "static/media/c3-5.wav": "/Chiches/static/media/c3-5.4af555ed.wav",
+    "static/media/c3-6.wav": "/Chiches/static/media/c3-6.21edf297.wav",
+    "static/media/c3-7.wav": "/Chiches/static/media/c3-7.1ce6b15a.wav",
+    "static/media/c3-8.wav": "/Chiches/static/media/c3-8.bc82c5ed.wav"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.cb2dbf0d.js",
+    "static/js/2.1f06f050.chunk.js",
+    "static/css/main.205f021d.chunk.css",
+    "static/js/main.a762f313.chunk.js"
+  ]
+}
