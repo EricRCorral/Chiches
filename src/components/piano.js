@@ -111,9 +111,14 @@ class Piano extends React.Component {
 
         window.addEventListener('keydown', this.playPiano , false)
 
+        document.getElementsByTagName('footer').item(0).classList.add('piano-footer')
+
     }
 
     componentWillUnmount() {
+        
+        document.getElementsByTagName('footer').item(0).classList.remove('piano-footer')
+
         window.removeEventListener('keydown' , this.playPiano , false)
     }
 
@@ -126,6 +131,8 @@ class Piano extends React.Component {
             <div id='piano'>
 
                 <div className='title'>Mini piano</div>
+
+                <div className='piano-text'>Antes de comenzar, afina el piano tocando cada tecla.</div>
 
                 <div className='piano'>
 
